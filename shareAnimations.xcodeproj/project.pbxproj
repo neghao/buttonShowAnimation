@@ -15,6 +15,9 @@
 		0A54A0C21ED4161300D0E510 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0A54A0C01ED4161300D0E510 /* LaunchScreen.storyboard */; };
 		0A54A0CD1ED4161300D0E510 /* shareAnimationsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A54A0CC1ED4161300D0E510 /* shareAnimationsTests.m */; };
 		0A54A0D81ED4161300D0E510 /* shareAnimationsUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A54A0D71ED4161300D0E510 /* shareAnimationsUITests.m */; };
+		0A54A0E71ED417ED00D0E510 /* shareView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A54A0E61ED417ED00D0E510 /* shareView.m */; };
+		0A54A0E91ED43A4D00D0E510 /* wx@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0A54A0E81ED43A4D00D0E510 /* wx@2x.png */; };
+		0A54A0EB1ED43A5800D0E510 /* wb@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0A54A0EA1ED43A5800D0E510 /* wb@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +54,10 @@
 		0A54A0D31ED4161300D0E510 /* shareAnimationsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = shareAnimationsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0A54A0D71ED4161300D0E510 /* shareAnimationsUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = shareAnimationsUITests.m; sourceTree = "<group>"; };
 		0A54A0D91ED4161300D0E510 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0A54A0E51ED417ED00D0E510 /* shareView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = shareView.h; sourceTree = "<group>"; };
+		0A54A0E61ED417ED00D0E510 /* shareView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = shareView.m; sourceTree = "<group>"; };
+		0A54A0E81ED43A4D00D0E510 /* wx@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "wx@2x.png"; sourceTree = "<group>"; };
+		0A54A0EA1ED43A5800D0E510 /* wb@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "wb@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +112,10 @@
 				0A54A0B61ED4161300D0E510 /* AppDelegate.m */,
 				0A54A0B81ED4161300D0E510 /* ViewController.h */,
 				0A54A0B91ED4161300D0E510 /* ViewController.m */,
+				0A54A0E51ED417ED00D0E510 /* shareView.h */,
+				0A54A0E61ED417ED00D0E510 /* shareView.m */,
+				0A54A0EA1ED43A5800D0E510 /* wb@2x.png */,
+				0A54A0E81ED43A4D00D0E510 /* wx@2x.png */,
 				0A54A0BB1ED4161300D0E510 /* Main.storyboard */,
 				0A54A0BE1ED4161300D0E510 /* Assets.xcassets */,
 				0A54A0C01ED4161300D0E510 /* LaunchScreen.storyboard */,
@@ -251,7 +262,9 @@
 			files = (
 				0A54A0C21ED4161300D0E510 /* LaunchScreen.storyboard in Resources */,
 				0A54A0BF1ED4161300D0E510 /* Assets.xcassets in Resources */,
+				0A54A0EB1ED43A5800D0E510 /* wb@2x.png in Resources */,
 				0A54A0BD1ED4161300D0E510 /* Main.storyboard in Resources */,
+				0A54A0E91ED43A4D00D0E510 /* wx@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -276,6 +289,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0A54A0E71ED417ED00D0E510 /* shareView.m in Sources */,
 				0A54A0BA1ED4161300D0E510 /* ViewController.m in Sources */,
 				0A54A0B71ED4161300D0E510 /* AppDelegate.m in Sources */,
 				0A54A0B41ED4161300D0E510 /* main.m in Sources */,
@@ -427,6 +441,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 69U78V53ZN;
 				INFOPLIST_FILE = shareAnimations/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = neghao.studio.shareAnimations;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -439,6 +454,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 69U78V53ZN;
 				INFOPLIST_FILE = shareAnimations/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = neghao.studio.shareAnimations;
 				PRODUCT_NAME = "$(TARGET_NAME)";
